@@ -8,5 +8,5 @@ app.listen(port, () => console.log(`Listening on port ${port}`))
 
 app.get('/checkServer', (req, res) => {
     console.log('connect server check')
-    res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' })
+    res.send({ express: 'SERVER CONNECT SUCCESS!' })
 })
